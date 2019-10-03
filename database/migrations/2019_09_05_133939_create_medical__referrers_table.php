@@ -45,3 +45,4 @@ class CreateMedicalReferrersTable extends Migration
         Schema::dropIfExists('medical__referrers');
     }
 }
+
