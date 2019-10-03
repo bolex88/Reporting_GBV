@@ -54,3 +54,4 @@ class CreateComplainantVictimInterviewsTable extends Migration
         Schema::dropIfExists('complainant_victim_interviews');
     }
 }
+
