@@ -35,4 +35,3 @@ Route::get('/referrer-reports', 'PoliceController@showReferrer')->name('referrer
 Route::get('/add-interview', 'PoliceController@showInterviewForm')->name('interview.add');
 Route::post('/interview', 'PoliceController@addInterview')->name('interview.save');
 Route::get('/interview-reports', 'PoliceController@showInterview')->name('interview.reports');
-
